@@ -1,0 +1,228 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header.back{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url('background.jpg');
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+
+header.backD{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url('background.jpg');
+	height: 100px;
+
+}
+
+footer .footer{
+	height: 100px;
+	border: 1px solid grey;
+	background-color: grey;
+}
+
+.backD .main .logo ul li{
+	float: right;
+	list-style-type: none;
+	color: white;
+	border: 2px solid white;
+	display: block;
+	margin-top: 10px;
+	padding: 8px 10px;
+	border-radius: 20px;
+}
+
+.backD .main .logo ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.logo img{
+	float: left;
+	width: 200px;
+	height: auto;
+	margin-top: 20px;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 40px;
+}
+
+.button{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;	
+}
+
+.btn:hover{
+	background-color: #fff;
+	color: 000;
+}
+
+.sectionmain{
+	max-width: 1000px;
+	margin: auto;
+}
+
+.sectionmain .heading{
+	margin: 30px;
+	text-align: center;
+}
+
+
+
+.sectionmain .heading h1{
+	font-size: 50px;
+	color: grey;
+}
+
+.section1{
+	border: 2px solid tomato;
+	border-radius: 20px;
+	padding: 20px;
+	margin-top: 10px;
+	overflow: auto;
+}
+
+.sectionmainb{
+	max-width:600px;
+	margin:auto;
+	background-color:#f2f2f2;
+	margin-top: 50px; 
+	margin-bottom: 50px;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.section1 .img1{
+	float: left;
+	height: 400px;
+	width: 400px;
+	margin-right: 20px;
+	border-radius: 10px;
+}
+
+.section2{
+	border: 2px solid dodgerblue;
+	border-radius: 20px;
+	padding: 20px;
+	margin-top:20px;
+	overflow: auto;
+}
+
+.section2 .img1{
+	float: right;
+	height: 400px;
+	width: 400px;
+	margin-left: 20px; 
+	border-radius: 10px;
+}
+
+.section1 h1{
+	font-size: 36px;
+	color: tomato;
+	margin-bottom: 10px;
+}
+
+.section2 h1{
+	font-size: 36px;
+	color: dodgerblue;
+	margin-bottom: 10px;
+}
+
+.section1 p{
+	font-size: 20px;
+	color: rgba(255,99,71,0.8);
+}
+
+.section2 p{
+	font-size: 20px;
+	color: rgba(30,144,255,0.8);
+}
+.cta{
+	text-align: center;
+}
+.buttonm{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 20px 5px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.button1{
+	background-color: white; 
+  	color: black; 
+  	border: 2px solid tomato;
+}
+.button1:hover{
+	background-color: tomato;
+ 	color: white;
+}
+.button2{
+	background-color: white; 
+  	color: black; 
+  	border: 2px solid dodgerblue;
+}
+.button2:hover{
+	background-color: dodgerblue;
+ 	color: white;
+}
+
+
+
+
+input[type=text], select, textarea, input[type = 'number'], input[type = 'date'], input[type = 'email']{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit], input[type=reset] {
+  width: 20%;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
